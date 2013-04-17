@@ -1,0 +1,28 @@
+{
+  "name": "wwdc",
+  "version": "0.0.1",
+  "description": "Alerts you when this years' WWDC tickets go on sale!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "bin": {
+    "wwdc": "index.js"
+  },
+  "repository": "",
+  "keywords": [
+    "wwdc",
+    "alert",
+    "alerts",
+    "tickets",
+    "ticket",
+    "monitor"
+  ],
+  "author": "Christopher Giffard <christopher.giffard@cgiffard.com>",
+  "license": "BSD",
+  "dependencies": {
+    "commander": "~1.1.1",
+    "request": "~2.16.6",
+    "bas": "0.0.4"
+  }
+}
