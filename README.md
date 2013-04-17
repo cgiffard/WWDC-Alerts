@@ -7,6 +7,8 @@ Use it to alert you when the developer site changes and WWDC tickets are on sale
 
 You can monitor the output yourself, or have it request a URL.
 
+## Example
+
 	$ wwdc -g https://github.com/
 	Assertion sheet loaded. Beginning checks!
 	WWDC Site has changed! Check now!
@@ -14,3 +16,7 @@ You can monitor the output yourself, or have it request a URL.
 	Alert script requested.
 	
 For more information, see `wwdc -h`.
+
+## Installation
+
+	npm install -g wwdc
